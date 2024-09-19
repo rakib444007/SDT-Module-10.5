@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>This is first project home page.........</h1>
+
+    <h2>{{ val | add:"4" }}</h2>
+    
+    <h2>{{ str | addslashes }}</h2>
+
+
+    <h2>{{ name | capfirst }}</h2>
+
+
+    <h2>{{ name | center:"50" }}</h2>
+
+    <h2>{{ spaceString | cut:" " }}</h2>
+
+
+    <h2>{{ date  | date:"D d M Y" }}</h2>
+
+    <h2>{{ empty | default:"nothing" }}</h2>
+
+    <h2>{{ lst | dictsort:"age"}}</h2>
+
+    <h2>{{ number | divisibleby:"3"}}</h2>
+
+    <h2>{{ es| escape}}</h2>
+
+    <h2>{{ fileValue | filesizeformat}}</h2>
+
+    <h2>{{ arr | first}}</h2>
+
+    <h2>{{ arr | last}}</h2>
+
+    <h2>{{ arr | join:"-"}}</h2>
+
+    <h2>{{ arr | length}}</h2>
+
+    <h2>{{ txtNum | linenumbers}}</h2>
+
+    <h2>{{ spaceString | upper}}</h2>
+
+    <h2>{{ spaceString | lower}}</h2>
+
+    <h2>{{ name | make_list}}</h2>
+
+    <h2>{{ arr | random}}</h2>
+
+    <h2>{{ arr | slice:'3'}}</h2>
+
+    <h2>{{ courseName | slugify}}</h2>
+
+    <h2>{{ date | time:'H:i'}}</h2>
+
+    <h2>{{ tit | title}}</h2>
+
+    <h2>{{ Date | timesince:other_date }}</h2>
+
+    <h2>{{ name | wordcount}}</h2>
+
+    <h2>{{ unorder | unordered_list}}</h2>
+
+    <h2>{{ description | truncatechars:8}}</h2>
+
+    <h2>{{ description | truncatewords:3}}</h2>
+
+    <h2>{{ string | striptags}}</h2>
+
+    <h2>{{ str | truncatewords:3 }}</h2>
+
+    <h2>You have {{ num_messages }} message{{ num_messages | pluralize }}.</h2>
+
+    <h2>{{ longdescription | truncatewords:36 }}</h2>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+</body>
+</html>
